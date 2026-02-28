@@ -1,0 +1,12 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: qf89783
+      user: ATSUSHI_ICHIKAWA
+      role: ACCOUNTADMIN
+      database: FY26_TASK_FORCE_ICHIKAWA
+      warehouse: FY26_TASK_FORCE
+      schema: STREAMLIT_TEST
+      threads: 4
